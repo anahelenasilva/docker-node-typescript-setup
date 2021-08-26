@@ -1,0 +1,7 @@
+{
+    "verbose": true,
+    "watch": ["src/**/*.ts"],
+    "execMap": {
+        "ts": "node --inpect=0.0.0.0:9229 --nolazy -r ts-node/register"
+    }
+}
